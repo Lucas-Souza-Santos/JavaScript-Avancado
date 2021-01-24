@@ -36,4 +36,21 @@ Curso de JavaScript Avançando do canal CFB Cursos
 * Copiando um vetor
 * Concatenando vetores
 * Concatenando objetos
-    
+
+## Aula 99
+* Entradas
+
+const aluno = {nome: "Lucas", sobrenome: "Santos"};
+const notas = {n1: 80, n2: 75, n3: 92, n4: 85};
+const info  = {...aluno, ...notas};
+
+* Loop FOR IN
+
+for(var dado in aluno){
+    console.log(dado);
+}
+
+* Saída 
+
+nome
+sobrenome
