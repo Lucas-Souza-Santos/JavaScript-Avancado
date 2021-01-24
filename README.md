@@ -39,11 +39,13 @@ Curso de JavaScript Avançando do canal CFB Cursos
 
 ## Aula 99
     O forIn imprime as chaves ou index dos elementos e o forOF imprime os valores das chaves ou dos index.
-    
+
 * Entradas
 
     const aluno = {nome: "Lucas", sobrenome: "Santos"};
+
     const notas = {n1: 80, n2: 75, n3: 92, n4: 85};
+    
     const info  = {...aluno, ...notas};
 
 * Loop FOR IN
@@ -53,6 +55,6 @@ Curso de JavaScript Avançando do canal CFB Cursos
     }
 
 * Saída 
-
     nome
+    
     sobrenome
