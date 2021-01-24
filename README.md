@@ -70,4 +70,17 @@ Curso de JavaScript Avançando do canal CFB Cursos
     92
     85
     ```
+## Aula 100
+    Parâmetros REST
+    ```
+    function soma(...num)
+    {
+        let res = 0;
+        for(let item of num){
+        res += item;
+        }
+        return res;
+    }
 
+    console.log(soma(3, 4, 6, 7, 8, 1, 4, 2));
+    ```
