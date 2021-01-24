@@ -12,22 +12,28 @@ Curso de JavaScript Avançando do canal CFB Cursos
 
 ## Aula 97
     Operador Spread em javascript
-*vetor sem spread operator*
+-*vetor sem spread operator*
 
     const notas = [60, 45, 78, 80, 32, 86]
 
     console.log(notas);
     
-*saida*
+-*saida*
 
     [ 60, 45, 78, 80, 32, 86 ]
     
-*vetor com spread operator*
+-*vetor com spread operator*
     
     const notas = [60, 45, 78, 80, 32, 86]
 
     console.log(notas);
-*saída* 
+-*saída* 
 
     60 45 78 80 32 86
+
+## Aula 98 
+    Continuação da aula de Spread:
+* Copiando um vetor
+* Concatenando vetores
+* Concatenando objetos
     
