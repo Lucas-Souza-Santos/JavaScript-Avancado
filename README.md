@@ -12,22 +12,22 @@ Curso de JavaScript Avançando do canal CFB Cursos
 
 ## Aula 97
     Operador Spread em javascript
--*vetor sem spread operator*
+- *vetor sem spread operator*
 
     const notas = [60, 45, 78, 80, 32, 86]
 
     console.log(notas);
     
--*saida*
+- *saida*
 
     [ 60, 45, 78, 80, 32, 86 ]
     
--*vetor com spread operator*
+- *vetor com spread operator*
     
     const notas = [60, 45, 78, 80, 32, 86]
 
     console.log(notas);
--*saída* 
+- *saída* 
 
     60 45 78 80 32 86
 
@@ -40,17 +40,17 @@ Curso de JavaScript Avançando do canal CFB Cursos
 ## Aula 99
 * Entradas
 
-const aluno = {nome: "Lucas", sobrenome: "Santos"};
-const notas = {n1: 80, n2: 75, n3: 92, n4: 85};
-const info  = {...aluno, ...notas};
+    const aluno = {nome: "Lucas", sobrenome: "Santos"};
+    const notas = {n1: 80, n2: 75, n3: 92, n4: 85};
+    const info  = {...aluno, ...notas};
 
 * Loop FOR IN
 
-for(var dado in aluno){
-    console.log(dado);
-}
+    for(var dado in aluno){
+        console.log(dado);
+    }
 
 * Saída 
 
-nome
-sobrenome
+    nome
+    sobrenome
