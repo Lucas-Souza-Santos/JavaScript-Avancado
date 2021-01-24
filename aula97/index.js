@@ -1,3 +1,11 @@
-const notas = [60, 45, 78, 80, 32, 86]
+const notas = [1, 2, 4, 5, 6, 7]
 
-console.log(notas);
+function soma(...num){
+    soma = 0;
+    for(let i = 0; i < num.length; i++){
+        soma += num[i]
+    }
+    return soma; 
+}
+
+console.log(soma(...notas));
