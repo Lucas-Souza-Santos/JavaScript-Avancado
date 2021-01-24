@@ -84,3 +84,24 @@ Curso de JavaScript Avançando do canal CFB Cursos
 
     console.log(soma(3, 4, 6, 7, 8, 1, 4, 2));
     ```
+
+## Aula 101
+
+    Funções anonimas
+    ```
+    const soma = function(...num)
+    {
+        let res = 0;
+        for(let item of num)
+        {
+            res += item;
+        }
+        return res;
+    }
+
+    console.log(soma(1, 2, 3, 4, 5));
+    ```
+
+## Aula 102
+    Funções Construtoras
+
