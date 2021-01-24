@@ -13,7 +13,7 @@ Curso de JavaScript Avançando do canal CFB Cursos
 ## Aula 97
     Operador Spread em javascript
 - *vetor sem spread operator*
-    ````
+    ```
     const notas = [60, 45, 78, 80, 32, 86]
     console.log(notas);
     ```   
@@ -22,7 +22,7 @@ Curso de JavaScript Avançando do canal CFB Cursos
     [ 60, 45, 78, 80, 32, 86 ]
     ```    
 - *vetor com spread operator*
-    ````
+    ```
     const notas = [60, 45, 78, 80, 32, 86]
     console.log(notas);
     ```
@@ -37,32 +37,33 @@ Curso de JavaScript Avançando do canal CFB Cursos
 * Concatenando objetos
 
 ## Aula 99
-    O forIn imprime as chaves ou index dos elementos e o forOF imprime os valores das chaves ou dos index.
+ * O forIn imprime as chaves ou index dos elementos
+ * O forOF imprime os valores dos index de objetos iteraveis.
 
-* Entradas
+- Entradas
     ```
     const aluno = {nome: "Lucas", sobrenome: "Santos"};
     const nota_aluno = [80, 75, 92, 85]
     ```
     
-* Loop FOR IN
+- Loop FOR IN
     ```
     for(var dado in aluno){
         console.log(dado);
     }
     ```
-* Saída
+- Saída
     ```
     nome
     sobrenome
     ```
-* Loop FOR OF
+- Loop FOR OF
     ```
     for(let item of aluno){
         console.log(item)
     }
     ```
-* Saída
+- Saída
     ```
     80
     75
