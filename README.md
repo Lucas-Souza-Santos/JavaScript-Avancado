@@ -18,7 +18,8 @@ Curso de JavaScript Avançando do canal CFB Cursos
 
     console.log(notas);
     
-*saida* 
+*saida*
+
     [ 60, 45, 78, 80, 32, 86 ]
     
 *vetor com spread operator*
@@ -27,5 +28,6 @@ Curso de JavaScript Avançando do canal CFB Cursos
 
     console.log(notas);
 *saída* 
+
     60 45 78 80 32 86
     
