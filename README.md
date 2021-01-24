@@ -49,12 +49,11 @@ Curso de JavaScript Avançando do canal CFB Cursos
     const info  = {...aluno, ...notas};
 
 * Loop FOR IN
-
+    ```
     for(var dado in aluno){
         console.log(dado);
     }
-
+    ```
 * Saída 
     nome
-    
     sobrenome
